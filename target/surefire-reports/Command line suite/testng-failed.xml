@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="org.altairretro.practice.AccountAddTest">
+        <methods>
+          <include name="AccountAction"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.AccountAddTest -->
+      <class name="org.altairretro.practice.CustomerTest">
+        <methods>
+          <include name="CustomerADDAction"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.CustomerTest -->
+      <class name="org.altairretro.practice.AddSupplierTest">
+        <methods>
+          <include name="SupplierAction"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.AddSupplierTest -->
+      <class name="org.altairretro.practice.ProductAddTest">
+        <methods>
+          <include name="addProduct"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.ProductAddTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

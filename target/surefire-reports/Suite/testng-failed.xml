@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="genericUtility.ListenerImplementation"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.altairretro.practice.AccountAddTest">
+        <methods>
+          <include name="AccountAction"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.AccountAddTest -->
+      <class name="org.altairretro.practice.CustomerTest">
+        <methods>
+          <include name="CustomerADDAction"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.CustomerTest -->
+      <class name="org.altairretro.practice.AddSupplierTest">
+        <methods>
+          <include name="SupplierAction"/>
+          <include name="classSetUp"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.AddSupplierTest -->
+      <class name="org.altairretro.practice.ProductAddTest">
+        <methods>
+          <include name="addProduct"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.ProductAddTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
