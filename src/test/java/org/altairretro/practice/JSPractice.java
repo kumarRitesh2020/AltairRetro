@@ -15,7 +15,7 @@ public class JSPractice {
 		WebDriver driver=new ChromeDriver();
 		WebDriverUtility webDriverUtility=new WebDriverUtility();
 		driver.manage().window().maximize();
-		webDriverUtility.jsInitialization(driver;
+		webDriverUtility.jsInitialization(driver);
 		webDriverUtility.openApplicationUsingJS("https://www.makemytrip.com");
 		//webDriverUtility.sendKeysUsingJS(null, null);
 		//webDriverUtility.sendKeysUsingJS(null, null);
