@@ -37,7 +37,7 @@ public class BaseClass
 	public static WebDriver sdriver;
 	 public static JavaUtility sjavaUtility;
 
-	
+	//changes done in base class
 		
 		/**
 		 * Initialize the all utility class
