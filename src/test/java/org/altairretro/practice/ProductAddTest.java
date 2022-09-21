@@ -26,7 +26,10 @@ public class ProductAddTest extends BaseClass {
 		String producttext = p.ProductText();
 		System.out.println(producttext);
 		assertEquals(producttext, "Product ");
-
+//Diamomd conflict
+		
+		
+		
 	}
 
 }
